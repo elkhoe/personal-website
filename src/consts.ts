@@ -4,7 +4,7 @@ export const SITE: Site = {
   NAME: "Ethan Khoe",
   EMAIL: "ekhoe.bg@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 2,
-  NUM_WORKS_ON_HOMEPAGE: 2,
+  NUM_WORKS_ON_HOMEPAGE: 0,
   NUM_PROJECTS_ON_HOMEPAGE: 2,
 };
 
@@ -30,15 +30,15 @@ export const PROJECTS: Metadata = {
 
 export const SOCIALS: Socials = [
   { 
-    NAME: "github",
-    HREF: "https://github.com/elkhoe"
-  },
-  { 
     NAME: "linkedin",
     HREF: "https://www.linkedin.com/in/ethankhoe/",
   },
   {
     NAME: "instagram",
     HREF: "https://www.instagram.com/ethankhoe/"
+  },
+  { 
+    NAME: "github",
+    HREF: "https://github.com/elkhoe"
   }
 ];
