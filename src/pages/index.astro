@@ -41,10 +41,10 @@ import { SITE, HOME, SOCIALS } from "@consts";
         <ul class="flex flex-wrap gap-4 text-lg">
           {SOCIALS.map(SOCIAL => (
             <li class="flex gap-x-2 text-nowrap">
-              <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}>
+              <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`} class="social-link">
                 {SOCIAL.NAME}
               </Link>
-              <span class="text-gray-400">/</span>
+              <span class="text-gray-400 social-separator">/</span>
             </li>
           ))}
           <li class="line-clamp-1">
